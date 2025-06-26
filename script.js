@@ -13,6 +13,41 @@ const quizData = [
     question: 'What does CSS stand for?',
     answers: ['Central Style Sheets', 'Cascading Style Sheets', 'Coded Style Sheets', 'Creative Style System'],
     correct: 1
+  },
+  {
+    question: 'What is the largest planet in our solar system?',
+    answers: ['Earth', 'Mars', 'Jupiter', 'Saturn'],
+    correct: 2
+  },
+  {
+    question: 'Which element has the chemical symbol O?',
+    answers: ['Gold', 'Oxygen', 'Osmium', 'Oganesson'],
+    correct: 1
+  },
+  {
+    question: 'What year did the Titanic sink?',
+    answers: ['1912', '1905', '1898', '1920'],
+    correct: 0
+  },
+  {
+    question: 'Who wrote "Romeo and Juliet"?',
+    answers: ['Charles Dickens', 'Mark Twain', 'William Shakespeare', 'Jane Austen'],
+    correct: 2
+  },
+  {
+    question: 'What is the smallest prime number?',
+    answers: ['0', '1', '2', '3'],
+    correct: 2
+  },
+  {
+    question: 'Which planet is known as the Red Planet?',
+    answers: ['Earth', 'Venus', 'Mars', 'Jupiter'],
+    correct: 2
+  },
+  {
+    question: 'What is the main ingredient in guacamole?',
+    answers: ['Tomato', 'Avocado', 'Pepper', 'Onion'],
+    correct: 1
   }
 ];
 
