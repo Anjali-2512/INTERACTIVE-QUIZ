@@ -12,11 +12,18 @@ body {
   border-radius: 8px;
   width: 90%;
   max-width: 500px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.quiz-container:hover {
+  transform: scale(1.02);
 }
 
 h2 {
   margin-bottom: 20px;
+  color: #333;
+  text-align: center;
 }
 
 .answer-btn {
@@ -25,9 +32,47 @@ h2 {
   margin: 10px 0;
   padding: 10px;
   cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF; /* Primary color */
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.answer-btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: translateY(-2px);
+}
+
+.answer-btn.correct {
+  background-color: #28a745; /* Green for correct answers */
+}
+
+.answer-btn.wrong {
+  background-color: #dc3545; /* Red for wrong answers */
 }
 
 #next-btn {
   margin-top: 20px;
   padding: 10px 20px;
+  background-color: #007BFF; /* Primary color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#next-btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: translateY(-2px);
+}
+
+#score {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #333;
 }
