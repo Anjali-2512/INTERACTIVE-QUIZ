@@ -5,7 +5,6 @@ body {
   justify-content: center;
   padding-top: 50px;
 }
-
 .quiz-container {
   background: white;
   padding: 30px;
@@ -15,17 +14,14 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
 }
-
 .quiz-container:hover {
   transform: scale(1.02);
 }
-
 h2 {
   margin-bottom: 20px;
   color: #333;
   text-align: center;
 }
-
 .answer-btn {
   display: block;
   width: 100%;
@@ -39,20 +35,16 @@ h2 {
   font-size: 16px;
   transition: background-color 0.3s, transform 0.2s;
 }
-
 .answer-btn:hover {
   background-color: #0056b3; /* Darker shade on hover */
   transform: translateY(-2px);
 }
-
 .answer-btn.correct {
   background-color: #28a745; /* Green for correct answers */
 }
-
 .answer-btn.wrong {
-  background-color: #dc3545; /* Red for wrong answers */
+  background-color: #dc3545; 
 }
-
 #next-btn {
   margin-top: 20px;
   padding: 10px 20px;
@@ -64,12 +56,10 @@ h2 {
   font-size: 16px;
   transition: background-color 0.3s, transform 0.2s;
 }
-
 #next-btn:hover {
   background-color: #0056b3; /* Darker shade on hover */
   transform: translateY(-2px);
 }
-
 #score {
   text-align: center;
   font-size: 18px;
